@@ -1,12 +1,32 @@
 header {
-  padding: 20px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  height: 150px;
 }
 
-.active {
-  color: blue;
-  border-bottom: 4px solid blue;        /* aumenta per far scendere la linea */
+.nav ul {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  list-style: none;
 }
 
 .nav a {
-    display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+}
+
+.active {
+  border-bottom: 4px solid blue;
 }

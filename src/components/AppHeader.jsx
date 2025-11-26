@@ -8,34 +8,34 @@ export default function AppHeader() {
       <nav className={style.nav}>
         <ul className="flex g-20">
           <li>
-            <a href="">Characters</a>
+            <a href="">CHARACTERS</a>
           </li>
           <li className={style.active}>
-            <a href="">Comics</a>
+            <a href="">COMICS</a>
           </li>
           <li>
-            <a href="">Movies</a>
+            <a href="">MOVIES</a>
           </li>
           <li>
             <a href="">TV</a>
           </li>
           <li>
-            <a href="">Games</a>
+            <a href="">GAMES</a>
           </li>
           <li>
-            <a href="">Collectibles</a>
+            <a href="">COLLECTIBLES</a>
           </li>
           <li>
-            <a href="">Videos</a>
+            <a href="">VIDEOS</a>
           </li>
           <li>
-            <a href="">Fans</a>
+            <a href="">FANS</a>
           </li>
           <li>
-            <a href="">News</a>
+            <a href="">NEWS</a>
           </li>
           <li>
-            <a href="">Shop</a>
+            <a href="">SHOP</a>
           </li>
         </ul>
       </nav>

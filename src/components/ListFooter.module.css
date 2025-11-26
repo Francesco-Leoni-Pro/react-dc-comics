@@ -4,7 +4,7 @@
   padding: 50px 300px;
 
   background-size: auto, cover; 
-  background-position: right, center;
+  background-position: 85% center, center;
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -12,6 +12,19 @@
   display: flex;
   gap: 50px;
   color: white;
+}
+
+/* Nuove colonne per layout corretto */
+.leftColumn {
+  display: flex;
+  flex-direction: column;   /* DC COMICS sopra SHOP */
+  gap: 30px;
+  width: 200px;             /* larghezza fissa colonna sinistra */
+}
+
+.rightColumn {
+  display: flex;
+  gap: 50px;                /* DC e SITES sulla stessa riga */
 }
 
 .listBlock h3 {
@@ -26,4 +39,10 @@
 
 .listBlock ul li {
   margin-bottom: 5px;
+  color: #a8a8a8;
+}
+
+/* Puoi anche lasciare shopBlock se vuoi margine extra */
+.shopBlock {
+  margin-top: 20px;
 }
