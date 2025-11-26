@@ -1,0 +1,20 @@
+.logoStrip {
+  display: flex;
+  background-color: #007bff; /* blu */
+  padding: 10px 20px;
+  gap: 30px;                 /* spazio tra logo-item */
+  align-items: center;       /* centra verticalmente logo e testo */
+}
+
+.logoItem {
+  display: flex;
+  align-items: center;       /* logo e testo affiancati */
+  gap: 10px;                 /* spazio tra immagine e scritta */
+  color: white;
+  font-weight: bold;
+}
+
+.logoItem img {
+  width: 40px;               /* regola dimensione immagine */
+  height: auto;
+}

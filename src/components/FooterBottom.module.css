@@ -1,0 +1,49 @@
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #303030;
+  padding: 20px 40px;
+}
+
+.signupBtn {
+  color: white;
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signupBtn:hover {
+  background-color: #0282f9;
+}
+
+.socialSection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.followText {
+  color: #0282f9;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.socialIcons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.socialIcons img:hover {
+  opacity: 0.7;
+}

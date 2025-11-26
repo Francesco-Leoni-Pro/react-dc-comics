@@ -1,7 +1,11 @@
+import ListFooter from "./ListFooter";
+import FooterBottom from "./FooterBottom";
+
 export default function AppFooter() {
   return (
     <footer>
-      <h3>Ciao Sono Footer</h3>
+      <ListFooter />
+      <FooterBottom />
     </footer>
   )
 }

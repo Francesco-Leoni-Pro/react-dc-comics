@@ -1,0 +1,29 @@
+.footerMain {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 300px;
+
+  background-size: auto, cover; 
+  background-position: right, center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.listContainer {
+  display: flex;
+  gap: 50px;
+  color: white;
+}
+
+.listBlock h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.listBlock ul {
+  list-style: none;
+}
+
+.listBlock ul li {
+  margin-bottom: 5px;
+}

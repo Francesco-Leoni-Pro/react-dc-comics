@@ -45,6 +45,7 @@ a {
   gap: 20px;
 }
 
-header {
-  padding: 20px 200px;
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }

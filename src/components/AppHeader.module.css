@@ -1,3 +1,7 @@
+header {
+  padding: 20px 200px;
+}
+
 .active {
   color: blue;
   border-bottom: 4px solid blue;        /* aumenta per far scendere la linea */
