@@ -1,0 +1,8 @@
+.active {
+  color: blue;
+  border-bottom: 4px solid blue;        /* aumenta per far scendere la linea */
+}
+
+.nav a {
+    display: inline-block;
+}
