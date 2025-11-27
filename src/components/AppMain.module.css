@@ -9,29 +9,69 @@
 .main {
   display: flex;
   flex-direction: column;
-  height: 400px;
 }
 
+/* Sezione CURRENT SERIES con sfondo jumbotron più alto */
 .section {
-  flex: 1;
   display: flex;
   flex-direction: column;
+  height: 500px; /* aumentata altezza */
+  background-size: cover;
+  background-position: center;
 }
 
 .textContainer {
-  flex: 1;
+  height: 100%;
   display: flex;
-  align-items: center;
-}
-
-.logoContainer {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* scritta in alto */
+  padding-left: 50px;
+  padding-top: 20px;
 }
 
 .textLeft {
-  padding-left: 450px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Griglia dei fumetti 6x2 */
+.comicsGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  background-color: black;
+  width: 100%;
+  padding: 50px 300px;
+  justify-items: center;
+}
+
+.comicCard {
+  width: 150px;
   text-align: center;
+}
+
+.comicCard img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.comicCard h4 {
+  margin: 10px 0 0 0;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 100%;
+}
+
+/* Striscia blu con loghi */
+.logoContainer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0055ff;
 }
