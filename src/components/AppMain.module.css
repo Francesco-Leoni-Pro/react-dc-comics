@@ -11,11 +11,11 @@
   flex-direction: column;
 }
 
-/* Sezione CURRENT SERIES con sfondo jumbotron più alto */
+/* Sezione CURRENT SERIES con sfondo jumbotron*/
 .section {
   display: flex;
   flex-direction: column;
-  height: 500px; /* aumentata altezza */
+  height: 500px;
   background-size: cover;
   background-position: center;
 }
@@ -23,7 +23,7 @@
 .textContainer {
   height: 100%;
   display: flex;
-  align-items: flex-start; /* scritta in alto */
+  align-items: flex-start;
   padding-left: 50px;
   padding-top: 20px;
 }
